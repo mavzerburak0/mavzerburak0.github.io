@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First post
-categories: [general, demo, sample]
+categories: [general]
 tags: [demo, dbyll, dbtek, sample2]
 description: My first post.
 ---
