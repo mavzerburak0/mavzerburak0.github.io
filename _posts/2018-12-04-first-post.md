@@ -14,16 +14,8 @@ Hello
 
 This will be removed soon
 
-<code>
-int main() 
-{
-    std::cout << "Hello world" << std::endl;
-}
-</code>
 
 ```
-int main()
-{
-    std::cout << "Hello world" << std::endl;
-}
+sudo apt update
+sudo apt install ntp
 ```
