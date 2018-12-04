@@ -6,14 +6,14 @@ exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
 google_analytics: dbyll
-title: Burak's blog
+title: Burak
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: Burak
+      title: Burak's blog
 
 description: Stylish Jekyll Theme
 author:
