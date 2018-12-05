@@ -1,3 +1,11 @@
+---
+layout: post
+title: Configuring NTP
+categories: [sysadmin]
+tags: [ntp, ntpd]
+description: NTP configuration using ntpd
+---
+
 NTP configuration using ntpd
 ======
 
