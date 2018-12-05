@@ -66,7 +66,7 @@ The last two parameters here are access restrictions that you can apply to the s
 _The notrap option prevents ntpdc control message protocol traps_. 
 _The nomodify options prevents any changes to the configuration_.
 
-To get more information about access restrictions: https://bitly.com/https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/s1-Configure_NTP
+To get more information about access restrictions: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/s1-Configure_NTP
 
 I have also added a NTP broadcast for the subnet which will be useful in the second part where I will set up a client that listens to this server for NTP.
 
