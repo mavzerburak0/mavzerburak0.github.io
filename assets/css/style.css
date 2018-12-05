@@ -121,7 +121,7 @@ article.home h3,
 article.home h4,
 article.home h5,
 article.home h6 {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: "Courier New", Courier, monospace;
 	color: #000;
 }
 
