@@ -18,7 +18,7 @@ The topology I will be using for this exercise is as follows:
 172.16.88.200 (S2) will take its NTP from 172.16.88.100
 ```
 
-_All machines in this exercise are using Debian 8 as their operating system._** 
+_All machines in this exercise are using Debian 8 as their operating system._ 
 
 I will first start by installing the ntp package on S1 with the following command.
 
@@ -28,7 +28,7 @@ sudo apt -y install ntp
 
 Once that is done, you can start making the necessary configurations in /etc/ntp.conf.
 
-Edit /etc/ntp.conf with any editor you like (vim, nano etc.)
+Edit /etc/ntp.conf with an editor of your choice (vim, nano etc.).
 
 This configuration is subject to change depending upon where you are based. Find the suitable NTP servers based on your location and add them after the line that reads:
 
