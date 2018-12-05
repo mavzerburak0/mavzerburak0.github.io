@@ -9,6 +9,9 @@ description: NTP configuration using ntpd
 NTP configuration using ntpd
 ======
 
+![NTP](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Network_Time_Protocol_servers_and_clients.svg/350px-Network_Time_Protocol_servers_and_clients.svg.png)
+(Image Credit: https://en.wikipedia.org/wiki/Network_Time_Protocol)
+
 The topology I will be using for this exercise is as follows:
 
 ```
@@ -62,7 +65,7 @@ The last two parameters here are access restrictions that you can apply to the s
 _The notrap option prevents ntpdc control message protocol traps_. 
 _The nomodify options prevents any changes to the configuration_.
 
-To get more information about access restrictions: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/s1-Configure_NTP
+To get more information about access restrictions: https://bitly.com/https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/s1-Configure_NTP
 
 I have also added a NTP broadcast for the subnet which will be useful in the second part where I will set up a client that listens to this server for NTP.
 
@@ -142,4 +145,7 @@ s1.i803.zz    212.7.1.132    2 u   47   64    37   0.344   121.299 18.472
 
 As you can see, my server's domain name is shown in the output. refid here shows the IP address of the NTP server that the first machine is using. Two machines are using the same NTP server which means both their times should be in sync.
 
-
+#### References:
+* https://support.ntp.org/bin/view/Support/ConfiguringNTP
+* https://bitly.com/https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/s1-Configure_NTP
+* http://www.debianadmin.com/ntp-server-and-client-configuration-in-debian.html
