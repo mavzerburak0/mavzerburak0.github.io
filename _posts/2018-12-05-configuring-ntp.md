@@ -92,7 +92,7 @@ clock2.infonet. .PPS0.	          1 u    3   64  1      2.453  -36.083   0.000
 clock2.infonet. .PPS0.	          1 u    2   64  1      3.983  -38.042   0.000
 siim.ut.ee      193.40.133.142	  2 u    1   64  1      5.260  -38.220   0.000
 
-_[output omitted]_
+[output omitted]
 ```
 
 As you can see, the NTP server that has the least delay is being used first, the others are fallback. Also, third server on the output is coming from the pool we have added (there are two more in the output coming from the pools). 
@@ -140,6 +140,6 @@ Output should state your server's domain name. In my case:
 s1.i803.zz    212.7.1.132    2 u   47   64    37   0.344   121.299 18.472
 ```
 
-As you can see, my server's domain name is shown in the output. refid here shows the IP address of the NTP server that the first machine is using. Two machines are using the same NTP server which means their times should be in sync.
+As you can see, my server's domain name is shown in the output. refid here shows the IP address of the NTP server that the first machine is using. Two machines are using the same NTP server which means both their times should be in sync.
 
 

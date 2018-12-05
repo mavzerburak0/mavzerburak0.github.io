@@ -22,15 +22,13 @@ author:
   github: mavzerburak0
   twitter: burakmavzer_
   linkedin: kadir-burak-mavzer
-  bio: Hello! I'm a 2nd Cyber Security Engineering student at Tallinn University of Technology in Estonia with a passion towards my field of study.
+  bio: Hello! I'm a 2nd Cyber Security Engineering student at Tallinn University of Technology.
   email_md5: f738f728300835bb12c636a85fc1d2c7
 
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
 
-#set it as url of an image
-#sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
 
 BASE_PATH:
 
