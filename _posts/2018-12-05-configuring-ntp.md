@@ -108,8 +108,9 @@ Edit /etc/ntp.conf configuration file with your preferred text editor.
 
 Uncomment the lines at the end after:
 
-"# If you want to listen to time broadcasts on your local subnet, de-comment the
-# next lines. Please do this only if you trust everybody on the network!"
+```
+"If you want to listen to time broadcasts on your local subnet, de-comment the next lines. Please do this only if you trust everybody on the network!"
+```
 
 The lines that should be uncommented are:
 
