@@ -1,3 +1,12 @@
+---
+layout: post
+title: Configuring NTP
+categories: [sysadmin]
+tags: [ntp, ntpd]
+description: NTP configuration using ntpd
+published: false
+---
+
 # Setting up virtual hosts
 
 Virtual hosting allows us to host multiple domain names on a server with a single IP address.
