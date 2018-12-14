@@ -188,7 +188,7 @@ You will need to add an IP alias to your webserver for this. Open /etc/network/i
 sudo vim /etc/network/interfaces
 ```
 
-Add the following lines (replace <ip-address> with an IP on your network):
+Add the following lines (replace ip-address with an IP on your network):
 
 ```
 auto eth0:0
@@ -224,8 +224,12 @@ Change the opening VirtualHost tag to:
 <VirtualHost <ip-address>:80>
 ```
 
-with <ip-address> being the IP address that you have used in /etc/network/interfaces file to create an IP alias for your webserver.
+with ip-address being the IP address that you have used in /etc/network/interfaces file to create an IP alias for your webserver.
 
 There is no other difference to IP-based virtual host configuration from the other two types of configurations. 
 
 Again, don't forget to run a2ensite and reload the apache2 service for the new configuration to take effect.
+
+References:
+
+
