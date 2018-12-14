@@ -4,7 +4,6 @@ title: Setting up virtual hosts in apache2
 categories: [apache2]
 tags: [virtual host]
 description: This is to show the three types of virtual host configuration in apache2
-published: false
 ---
 
 # Setting up virtual hosts
