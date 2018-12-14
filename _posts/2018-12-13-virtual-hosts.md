@@ -134,7 +134,7 @@ Test your configuration by viewing the HTML content of the site:
 curl <ServerName>
 ```
 
-#Port-based virtual host configuration
+## Port-based virtual host configuration
 
 apache2 listens on port 80 by default, you can make it listen on other ports as well by editing:
 
@@ -142,13 +142,13 @@ apache2 listens on port 80 by default, you can make it listen on other ports as 
 sudo /etc/apache2/ports.conf
 ```
 
-When you open this file for editing, you will see this line
+When you open this file for editing, you will see this line:
 
 ```
 Listen 80
 ```
 
-after the explanatory comments. Add the following under the first Listen line:
+after the explanatory comments. Add the following under the first Listen:
 
 ```
 Listen 8000
@@ -180,7 +180,7 @@ There is nothing more to tweak other than adjusting the previous configuration t
 
 Keep in mind that you still need to use a2ensite command and then reload apache2 for the new configuration to take effect.
 
-#IP-based virtual host configuration
+## IP-based virtual host configuration
 
 You will need to add an IP alias to your webserver for this. Open /etc/network/interfaces with a terminal-based text editor of your choice (vim, nano etc.)
 
@@ -231,5 +231,6 @@ There is no other difference to IP-based virtual host configuration from the oth
 Again, don't forget to run a2ensite and reload the apache2 service for the new configuration to take effect.
 
 References:
-
+* [Apache Virtual Host Examples](https://httpd.apache.org/docs/2.4/vhosts/examples.html)
+* [maketecheasier - Setting Up Name-Based Virtualhost Apache](https://www.maketecheasier.com/name-based-virtualhost-apache/)
 
