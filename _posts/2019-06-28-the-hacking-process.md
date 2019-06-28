@@ -56,4 +56,4 @@ Detailed blog posts for each step and tools used in them will be written in the 
 
 References:
 
-* [CEH - Certified Ethical Hacker Version 10 Third Edition - Michael Gregg, Omar Santos](https://www.amazon.com/Certified-Ethical-Hacker-Cert-Guide/dp/0789751275)
+* [CEH - Certified Ethical Hacker Version 10 Third Edition - Michael Gregg, Omar Santos](https://www.amazon.com/Certified-Ethical-Hacker-Version-Certification/dp/0789760525/ref=sr_1_1?crid=339ZU06MPHMPR&keywords=certified+ethical+hacker+ceh+version+10+cert+guide&qid=1561720964&s=books&sprefix=ertified+Ethical+Hacker+%28CEH%29+Version%2Cstripbooks-intl-ship%2C264&sr=1-1)
