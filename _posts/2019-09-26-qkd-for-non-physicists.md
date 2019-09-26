@@ -26,13 +26,13 @@ Other types of conventional and non-conventional attacks are possible against di
 
 ### References
 
-* [How a quantum computer could break 2048-bit RSA encryption in 8 hours] (https://www.technologyreview.com/s/613596/how-a-quantum-computer-could-break-2048-bit-rsa-encryption-in-8-hours/)
-* [Quantum Information and Computation, Jeffrey Bub, in Philosophy of Physics, 2007] (https://www.elsevier.com/books/philosophy-of-physics/butterfield/978-0-444-51560-5)
-* [Is the security of quantum cryptography guaranteed by the laws of physics?] (https://arxiv.org/pdf/1803.04520.pdf)
-* [What is Quantum Key Distribution?] (https://www.quintessencelabs.com/wp-content/uploads/2015/08/CSA-What-is-Quantum-Key-Distribution-QKD-1.pdf)
+* [How a quantum computer could break 2048-bit RSA encryption in 8 hours](https://www.technologyreview.com/s/613596/how-a-quantum-computer-could-break-2048-bit-rsa-encryption-in-8-hours/)
+* [Quantum Information and Computation, Jeffrey Bub, in Philosophy of Physics, 2007](https://www.elsevier.com/books/philosophy-of-physics/butterfield/978-0-444-51560-5)
+* [Is the security of quantum cryptography guaranteed by the laws of physics?](https://arxiv.org/pdf/1803.04520.pdf)
+* [What is Quantum Key Distribution?](https://www.quintessencelabs.com/wp-content/uploads/2015/08/CSA-What-is-Quantum-Key-Distribution-QKD-1.pdf)
 
 ### Other Resources
 
-* [Homodyne-detector-blinding attack in continuous-variable quantum key distribution] (https://arxiv.org/pdf/1805.01620.pdf)
-* [High speed coherent one-way quantum key distribution prototype] (https://arxiv.org/pdf/0809.5264.pdf)
-* [Quantum key distribution] (https://quantiki.org/wiki/quantum-key-distribution)
+* [Homodyne-detector-blinding attack in continuous-variable quantum key distribution](https://arxiv.org/pdf/1805.01620.pdf)
+* [High speed coherent one-way quantum key distribution prototype](https://arxiv.org/pdf/0809.5264.pdf)
+* [Quantum key distribution](https://quantiki.org/wiki/quantum-key-distribution)
