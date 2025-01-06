@@ -5,22 +5,22 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: 
 markdown: kramdown
-title: Burak's Cyber Security blog
+title: Kadir Burak's Cyber Security blog
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: Burak's Cyber Security blog
+      title: Kadir Burak's Cyber Security blog
 
-description: Personal blog of Burak Mavzer
+description: Personal blog of Kadir Burak Mavzer
 author:
-  name: Burak
+  name: Kadir Burak
   email: mavzer122@gmail.com
   github: mavzerburak0
-  linkedin: kadir-burak-mavzer
-  bio: Hello! I'm a recent graduate of Cyber Security Engineering from Tallinn University of Technology. Currently working at VisionSpace Technologies GmbH @ Darmstadt, Germany.
+  linkedin: kadirburakmavzer
+  bio: Hello! I am a cloud security engineer, focused on GCP and AWS security.
   email_md5: f738f728300835bb12c636a85fc1d2c7
 
 rss_path: feed.xml
